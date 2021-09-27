@@ -1,6 +1,6 @@
 # CryptoApp
 
-A wep app i made for practice using ReactJS and Redux + Redux Toolkit. Coin information provided by Coinranking and Cryptonews by Bing News Search
+A wep app i made for practice using ReactJS and Redux + Redux Toolkit. Coin information provided by Coinranking and Cryptonews by Bing News Search. UI is made by using Ant Design UI Library.
 
 ## Screenshots
 

@@ -8,7 +8,6 @@ A wep app i made for practice using ReactJS and Redux + Redux Toolkit. Coin info
   <p align="right">
     <img width="1028" height="702" src="https://github.com/HeneDev/CryptoApp/blob/master/images/Home.PNG">
   </p>
-  ![Homepage view](/images/Home.png)
   
   **Cryptocurrencies view**
   <p align="right">

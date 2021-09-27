@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# CryptoApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A wep app i made for practice using ReactJS and Redux + Redux Toolkit. Coin information provided by Coinranking and Cryptonews by Bing News Search
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+**Homepage view**
+  <p align="right">
+    <img width="1028" height="702" src="https://github.com/HeneDev/CryptoApp/blob/master/images/Home.PNG">
+  </p>
+  ![Homepage view](/images/Home.png)
+  
+  **Cryptocurrencies view**
+  <p align="right">
+    <img width="1028" height="702" src="https://github.com/HeneDev/CryptoApp/blob/master/images/Cryptocurrencies.PNG">
+  </p>
+  
+   **Detailed view of a single cryptocurrency**
+  <p align="right">
+    <img width="1028" height="702" src="https://github.com/HeneDev/CryptoApp/blob/master/images/Cryptodetails.PNG">
+  </p>
+  
+   **Detailed view of a single cryptocurrency**
+  <p align="right">
+    <img width="1028" height="702" src="https://github.com/HeneDev/CryptoApp/blob/master/images/Cryptodetails(1).PNG">
+  </p>
+  
+   **Exchanges websites view**
+  <p align="right">
+    <img width="1028" height="702" src="https://github.com/HeneDev/CryptoApp/blob/master/images/Exchanges.PNG">
+  </p>
 
-### `yarn start`
+   **Cryptocurrency related news view**
+  <p align="right">
+    <img width="1028" height="702" src="https://github.com/HeneDev/CryptoApp/blob/master/images/News.PNG">
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Requirements:
 
-### `yarn test`
+- npm
+- coinranking api key
+- bing news search api key
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Cloning repository and changing directory:
 
-### `yarn build`
+```
+$ git clone git@github.com:HeneDev/CryptoApp.git
+cd CryptoApp
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Inside the CryptoApp folder open the terminal and install all the dependencies by the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm i
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Inside the root directory create an .env file and inside put in the following environment variables:
 
-### `yarn eject`
+```
+REACT_APP_CRYPTO_KEY=<Your coinranking key>
+REACT_APP_BASE_NEWS_URL=<Your bing news search key>
+REACT_APP_BASE_URL=https://coinranking1.p.rapidapi.com
+REACT_APP_NEWS_RAPIDAPI_HOST=bing-news-search1.p.rapidapi.com
+REACT_APP_CRYPTO_RAPIDAPI_HOST=coinranking1.p.rapidapi.com
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Running the application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Inside the CryptoApp directory, run the command**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm start
+```
